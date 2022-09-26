@@ -19,16 +19,26 @@
 .neno-banner{
 	color: #fff;
 	font-weight: 600;
-	font-size: 3rem;
+	font-size: 2rem;
 	margin-bottom: 0;
 }
 
 .neno-blurb{
 	color: #fff;
 	font-weight: 400;
-	font-size: calc(1.3rem + .6vw);
+	font-size: 1.3rem;
 }
 
 .footer{
 	font-size: .75em;
+}
+
+@media (min-width: 992px) {
+	.neno-banner{
+		font-size: 3rem;
+	}
+
+	.neno-blurb{
+		font-size: calc(1.3rem + .6vw);
+	}
 }
